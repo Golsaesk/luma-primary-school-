@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "lang": "en",
+    "dir": "ltr",
+    "title": "My Website"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log in"
+  },
+  "hero": {
+    "title": "Welcome to our platform",
+    "subtitle": "Everything you need, in one place.",
+    "cta": "Get started"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Log in to your account",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "Password",
+    "passwordHint": "Must be at least 8 characters",
+    "submit": "Log in",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

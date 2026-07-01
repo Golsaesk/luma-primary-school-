@@ -1,0 +1,16 @@
+/* ==========================================================================
+   DESIGN SYSTEM — ENTRY POINT
+   Link only this file in a new project: <link rel="stylesheet" href="design-system/index.css">
+   Import order matters: tokens define the variables, themes assign values
+   to the semantic ones, base applies global resets, components consume
+   everything above.
+   ========================================================================== */
+
+@import "./tokens/index.css";
+
+@import "./themes/light.css";
+@import "./themes/dark.css";
+@import "./themes/brand-x.css";
+
+@import "./base.css";
+@import "./components.css";

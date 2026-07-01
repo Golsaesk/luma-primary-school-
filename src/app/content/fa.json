@@ -1,0 +1,32 @@
+{
+  "meta": {
+    "lang": "fa",
+    "dir": "rtl",
+    "title": "وب‌سایت من"
+  },
+  "nav": {
+    "home": "خانه",
+    "about": "درباره ما",
+    "contact": "تماس با ما",
+    "login": "ورود"
+  },
+  "hero": {
+    "title": "به پلتفرم ما خوش آمدید",
+    "subtitle": "هر چیزی که نیاز دارید، در یک مکان.",
+    "cta": "شروع کنید"
+  },
+  "auth": {
+    "loginTitle": "خوش آمدید",
+    "loginSubtitle": "وارد حساب کاربری خود شوید",
+    "emailLabel": "ایمیل",
+    "emailPlaceholder": "you@example.com",
+    "passwordLabel": "رمز عبور",
+    "passwordHint": "حداقل باید ۸ کاراکتر باشد",
+    "submit": "ورود",
+    "noAccount": "حساب کاربری ندارید؟",
+    "signUp": "ثبت‌نام کنید"
+  },
+  "footer": {
+    "rights": "تمامی حقوق محفوظ است."
+  }
+}

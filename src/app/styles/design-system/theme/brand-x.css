@@ -1,0 +1,54 @@
+/* ==========================================================================
+   THEME — BRAND-X (example client rebrand)
+   This is a template showing how a rebrand works in practice: copy this
+   file, rename it, swap the primitive colors referenced below (or add
+   brand-specific primitives in tokens/color.css), and activate with
+   <html data-theme="brand-x">. No component CSS changes needed.
+
+   This example uses a violet/teal palette instead of the default blue.
+   ========================================================================== */
+
+:root {
+  /* Brand-specific primitives — could also live in tokens/color.css
+     if reused elsewhere, kept here since they're unique to this brand. */
+  --violet-50:  #f5f3ff;
+  --violet-500: #8b5cf6;
+  --violet-600: #7c3aed;
+  --violet-700: #6d28d9;
+
+  --teal-500: #14b8a6;
+  --teal-600: #0d9488;
+}
+
+[data-theme="brand-x"] {
+  --color-primary:        var(--violet-600);
+  --color-primary-hover:  var(--violet-700);
+  --color-primary-active: var(--violet-700);
+  --color-primary-subtle: var(--violet-50);
+  --color-on-primary:     var(--gray-0);
+
+  --color-success:        var(--teal-600);
+  --color-success-subtle: #f0fdfa;
+  --color-danger:         var(--red-600);
+  --color-danger-subtle:  var(--red-50);
+  --color-warning:        var(--amber-600);
+  --color-warning-subtle: var(--amber-50);
+  --color-info:           var(--teal-500);
+  --color-info-subtle:    #f0fdfa;
+
+  --color-bg:             var(--gray-50);
+  --color-surface:        var(--gray-0);
+  --color-surface-raised: var(--gray-0);
+  --color-surface-sunken: var(--gray-100);
+
+  --color-text:           var(--gray-900);
+  --color-text-secondary: var(--gray-600);
+  --color-text-muted:     var(--gray-400);
+  --color-text-on-dark:   var(--gray-0);
+
+  --color-border:         var(--gray-200);
+  --color-border-strong:  var(--gray-300);
+  --color-border-focus:   var(--violet-500);
+
+  --shadow-card: var(--shadow-sm);
+}
