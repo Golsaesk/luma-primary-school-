@@ -1,0 +1,42 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-3);
+}
+
+.key {
+  width: 72px;
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: var(--radius-lg);
+
+  background: var(--color-surface);
+
+  color: var(--color-text);
+
+  font-size: 24px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s,
+    transform 0.15s;
+}
+
+.key:hover {
+  background: var(--color-surface-hover);
+}
+
+.key:active {
+  transform: scale(0.96);
+}
+
+.empty {
+  visibility: hidden;
+}

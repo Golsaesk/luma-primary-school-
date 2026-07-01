@@ -1,0 +1,37 @@
+.root {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  cursor: pointer;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 20px;
+  height: 20px;
+
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+
+  background: var(--color-surface);
+
+  transition: 0.2s;
+}
+
+.checkbox[data-state="checked"] {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+.checkbox:focus-visible {
+  outline: 2px solid var(--color-primary);
+}
+
+.label {
+  user-select: none;
+}
