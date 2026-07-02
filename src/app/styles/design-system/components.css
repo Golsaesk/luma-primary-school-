@@ -1,13 +1,3 @@
-/* ==========================================================================
-   COMPONENTS
-   Every value below references a token from /tokens or /themes. Nothing
-   in this file should ever contain a raw hex code or raw pixel value —
-   if you need one, add a token instead of hardcoding it here.
-   ========================================================================== */
-
-/* --------------------------------------------------------------------------
-   BUTTON
-   -------------------------------------------------------------------------- */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -57,9 +47,6 @@
 .btn-lg { padding: var(--space-4) var(--space-6); font-size: var(--text-base); }
 .btn-block { width: 100%; }
 
-/* --------------------------------------------------------------------------
-   FORM / INPUT
-   -------------------------------------------------------------------------- */
 .field {
   display: flex;
   flex-direction: column;
@@ -107,9 +94,6 @@
 
 .textarea { resize: vertical; min-height: 6rem; }
 
-/* --------------------------------------------------------------------------
-   CARD
-   -------------------------------------------------------------------------- */
 .card {
   background: var(--color-surface);
   border: var(--border-width-thin) solid var(--color-border);
@@ -117,10 +101,6 @@
   box-shadow: var(--shadow-card);
   padding: var(--space-6);
 }
-
-/* --------------------------------------------------------------------------
-   BADGE / ALERT
-   -------------------------------------------------------------------------- */
 .badge {
   display: inline-flex;
   align-items: center;
@@ -145,10 +125,6 @@
 .alert-warning { background: var(--color-warning-subtle); border-color: var(--color-warning); color: var(--color-warning); }
 .alert-info    { background: var(--color-info-subtle);    border-color: var(--color-info);    color: var(--color-info); }
 
-/* --------------------------------------------------------------------------
-   PATTERN: LOGIN / AUTH FORM
-   Composed entirely from the primitives above.
-   -------------------------------------------------------------------------- */
 .auth-shell {
   min-height: 100vh;
   display: flex;

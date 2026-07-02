@@ -1,0 +1,36 @@
+.wrapper {
+  position: relative;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+svg {
+  transform: rotate(-90deg);
+}
+
+circle {
+  fill: none;
+}
+
+.bg {
+  stroke: var(--color-border);
+}
+
+.progress {
+  stroke: var(--color-primary);
+
+  stroke-linecap: round;
+
+  transition: stroke-dashoffset var(--duration-slow) var(--ease-standard);
+}
+
+.label {
+  position: absolute;
+
+  color: var(--color-text);
+
+  font-size: 0.875rem;
+  font-weight: 600;
+}
