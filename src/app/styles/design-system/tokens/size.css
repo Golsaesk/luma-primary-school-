@@ -1,0 +1,16 @@
+:root {
+  --control-height-sm: 36px;
+  --control-height-md: 44px;
+  --control-height-lg: 52px;
+  --icon-size-sm: 16px;
+  --icon-size-md: 20px;
+  --icon-size-lg: 24px;
+  --avatar-size-sm: 32px;
+  --avatar-size-md: 48px;
+  --avatar-size-lg: 72px;
+  --selection-size: 20px;
+  --status-dot-size: 10px;
+  --badge-height-sm: 20px;
+  --badge-height-md: 24px;
+  --badge-height-lg: 30px;
+}

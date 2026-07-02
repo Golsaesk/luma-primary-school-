@@ -1,0 +1,5 @@
+:root {
+  --grid-columns-mobile: 4;
+  --grid-gutter: 12px;
+  --grid-margin: 24px;
+}
